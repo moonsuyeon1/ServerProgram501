@@ -2,9 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP2 - Hello World</title>
+    <title>JSP3 - input</title>
 </head>
 <body>
+<form action="/calc2/input" method="post">
+<input type="number" name="num1">
+<input type="number" name="num2">
+<button type="submit">전송</button>
+</form>
+
 <h1><%= "Hello World!3" %>
 </h1>
 <br/>
